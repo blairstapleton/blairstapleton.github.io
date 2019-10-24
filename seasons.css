@@ -1,0 +1,104 @@
+header img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-width: 5px;
+    outline-color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+section {
+    padding: 20px;
+}
+
+nav {
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 5px padding: 5px;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+nav li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffff00 0%, #33ccff 100%);
+    font-family: comicsans;
+    font-size: 20px;
+}
+
+body.fall {
+    background-color: darkorange;
+}
+
+.fall nav,
+.fall footer {
+    background-color: brown;
+}
+
+body.spring {
+    background-color: greenyellow;
+}
+
+.spring nav,
+.spring footer {
+    background-color: #e3d23d;
+}
+
+body.summer {
+    background-color: yellow;
+}
+
+.summer nav,
+.summer footer {
+    background-color: pink;
+}
+
+body.winter {
+    background-color: navy;
+}
+
+.winter nav,
+.winter footer {
+    background-color: cadetblue;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+footer {
+    background-color: lightgray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#wrap {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto
+}
