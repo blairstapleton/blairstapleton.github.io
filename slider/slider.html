@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slider.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <h2>Responsive navigation menu</h2>
+    <p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">More Info</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="main">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="packers.jpg" data-thumb="packers.jpg" alt="" />
+                    <a href="http://dev7studios.com"><img src="packk.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                    <img src="pack.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="packy.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+            </div>
+
+
+            <p>This is the main content.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit vehicula pellentesque. Aliquam porta bibendum mollis. Fusce molestie nisi sit amet augue euismod, nec luctus ante auctor. Nam volutpat semper volutpat. Proin ultricies, sem eget ultricies vulputate, augue velit luctus enim, vel facilisis diam nibh a elit. Ut gravida erat turpis, at dictum nisl porttitor vel. Ut pharetra nibh vel orci ultrices viverra. Nam mattis neque at mauris ultrices blandit. Morbi consequat lobortis nisl, non placerat nulla tincidunt a. Nam suscipit urna neque, ut eleifend erat hendrerit id. Mauris sit amet nulla pellentesque, mollis ipsum mattis, sollicitudin velit. Praesent sem sem, blandit nec tristique eu, placerat pulvinar justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque faucibus, nunc non pellentesque eleifend, ligula nisi consequat dolor, at lobortis nulla arcu id augue. Cras fringilla sed eros sed faucibus.</p>
+
+                <p>In gravida venenatis interdum. Morbi quis sollicitudin risus, et semper velit. Donec vel elit tortor. Pellentesque nec dictum eros. Vivamus ultricies urna scelerisque elementum lobortis. Praesent nunc est, mollis volutpat mauris eget, pellentesque accumsan nulla. Proin dictum ex non nisl sollicitudin, sit amet faucibus nunc aliquet. Nulla eget suscipit dui, sed mattis nulla. Suspendisse semper accumsan ex, at tincidunt nulla tincidunt nec.</p>
+
+                <p>Vivamus malesuada, tortor at maximus placerat, dui turpis fringilla turpis, non tincidunt turpis velit sed nibh. Mauris aliquam lorem lacus, eu volutpat nisl efficitur eget. Cras nec iaculis sem, vel accumsan metus. Phasellus hendrerit at leo vitae accumsan. Duis porttitor, lorem non dapibus posuere, leo erat mattis tellus, at rutrum ipsum nunc a ipsum. Pellentesque in neque interdum, consectetur neque vel, efficitur sem. Proin molestie ex a ultrices facilisis. Integer rhoncus mollis augue, a tincidunt elit elementum at. Aliquam erat volutpat. Phasellus ac nisi vestibulum, cursus lacus suscipit, ornare dolor. Praesent sed urna massa. Curabitur tempus arcu feugiat lectus sollicitudin fringilla sit amet eu metus.</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rz5TGN7eUcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed//rz5TGN7eUcM' frameborder='0' allowfullscreen></iframe></div>
+        </div>
+
+        <div id="side">
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+
+        </div>
+    </section>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
