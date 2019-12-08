@@ -1,0 +1,128 @@
+header img {
+    width: 20%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50%;
+    margin-left: 40%;
+    outline-width: 5px;
+    outline-color: black;
+}
+
+
+#wrap {
+    width: 80%;
+    border: 5px solid gray;
+    margin: 0 auto
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav ul {
+    margin: 5px padding: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav a {
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-decoration: inherit;
+}
+
+nav {
+    font-size: 10px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+.eyes {
+    width: 30%;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border: blue;
+    color: black;
+}
+
+body {
+    background-image: url(bones.png);
+    background-repeat: repeat;
+    background-color: white;
+}
+
+section {
+    background-color: white;
+    padding: 20px
+}
+
+section.nicknames,
+section.cutestories,
+section.personality,
+section.bestfriends {
+    background-color: white;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.legs {
+    width: 42%;
+    float: right;
+}
+
+.matty,
+.lola,
+.fourth {
+    width: 40%;
+}
+
+section {
+    overflow: auto;
+}
+
+.div {
+    width: 30%;
+}
+
+.embed-container {
+    position: absolute;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#main {
+    width: 42%;
+    float: right;
+    background-color: white;
+    padding: 1%;
+}
+
+#side {
+    width: 42%;
+    float: left;
+    background-color: lightgray;
+}
