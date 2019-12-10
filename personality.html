@@ -2,8 +2,23 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150681646-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-150681646-2');
+
+    </script>
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
     </style>
     <title>George Appreciation Website</title>
     <link href="final.css" rel="stylesheet" type="text/css">
@@ -21,10 +36,10 @@
         <nav>
             <ul>
                 <li><a href="final.html">Home</a></li>
-                <li><a href="cutestories.html" target="_new">Cute Stories</a></li>
-                <li><a href="personality.html" target="_new">Personality Traits</a></li>
-                <li><a href="bestfriends.html" target="_new">Best Friends</a></li>
-                <li><a href="nicknames.html" target="_new">Nicknames</a></li>
+                <li><a href="cutestories.html">Cute Stories</a></li>
+                <li><a href="personality.html">Personality Traits</a></li>
+                <li><a href="bestfriends.html">Best Friends</a></li>
+                <li><a href="nicknames.html">Nicknames</a></li>
             </ul>
         </nav>
         <section>
@@ -32,7 +47,7 @@
             <h1>All About George</h1>
 
             <section>
-                <div id="main">
+                <div>
                     <p>George is definitely a unique dog. He isn't the brightest, the fastest, the quietest, or the most well-trained pup, but he's George. Below are some of his most distinct characteristics, so you can have an idea of what he is like.
 
                         <li>Very, very loud snorer</li>
@@ -40,6 +55,7 @@
                         <li>Out of shape</li>
                         <li>Sleeps 20 hours/day</li>
                         <li>Partially potty trained</li>
+                        <li>Has allergies</li>
                         <li>Sneezes 15 times/day</li>
                         <li>Barks at random times</li>
                         <li>Has extreme separation anxiety</li>
@@ -52,7 +68,7 @@
                     </p>
                 </div>
 
-                <div id="side">
+                <div>
 
                     <form method="post" action="thanks.html">
 
@@ -74,13 +90,13 @@
 
                         <input type="checkbox" name="person" id="lazy" value="Lazy"> <label for="Lazy">Lazy</label><br>
                         <input type="checkbox" name="person" id="scared" value="Easily scared"> <label for="Easily Scared">Easily Scared</label><br>
-                        <input type="checkbox" name="person" id="Ad" value="Advertisement"> <label for="ad">Ad</label><br>
-                        <input type="checkbox" name="person" id="search" value="search"> <label for="search">Search</label>
+                        <input type="checkbox" name="person" id="dumb" value="Not very smart"> <label for="Not very smart">Not very smart</label><br>
+                        <input type="checkbox" name="person" id="adorable" value="Adorable"> <label for="adorable">Adorable</label>
 
 
                         <p>Anything else you'd like George to know about you?</p>
 
-                        <textarea name="comments" rows="10" cols="50" placeholder="Enter text"></textarea>
+                        <textarea name="comments" rows="10" cols="40" placeholder="Enter text"></textarea>
 
                         <p><input type="submit" value="Submit Answers to King G" </p> </form> <iframe width="560" height="315" src="https://www.youtube.com/embed/IkKif_jIlt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
@@ -88,7 +104,9 @@
     <!--Close wrap id-->
 
 
-</body></html>
+</body>
+
+</html>
 
 
 
